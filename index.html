@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ 
+    <div class="container mt-5">
+        <h2>Vérification d'adresse email</h2>
+        <!-- Форма для ввода email с использованием Bootstrap -->
+        <form id="emailForm">
+            <div class="mb-3">
+                <label for="email" class="form-label">Adresse email</label>
+                <!-- Поле ввода, тип текст -->
+                <input type="text" class="form-control" id="email" placeholder="monadresse@mail.com">
+                <!-- Элемент для отображения сообщения об ошибке -->
+                <div id="error-msg" class="text-danger mt-2"></div>
+            </div>
+        </form>
+    </div>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
